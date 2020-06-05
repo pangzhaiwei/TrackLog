@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_poi_click_title"
+        android:text="poi name"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:paddingTop="10dp"
+        android:paddingStart="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:background="#D5D3D6"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_poi_click_cancel"
+            android:text="取消"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/btn_poi_click_cancel"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_poi_click_goto"
+            android:text="前往"
+            android:textColor="@android:color/white"
+            android:background="@drawable/btn_poi_click_goto"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

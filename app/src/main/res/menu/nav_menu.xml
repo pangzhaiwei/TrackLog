@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_map_mode"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_normal"
+            android:icon="@drawable/ic_map"
+            android:title="@string/nav_normal_title" />
+
+        <item
+            android:id="@+id/nav_satellite"
+            android:icon="@drawable/ic_satellite"
+            android:title="@string/nav_satellite_title" />
+
+    </group>
+
+    <item android:title="@string/nav_item_title">
+
+        <menu>
+            <item
+                android:id="@+id/nav_traffic"
+                android:icon="@drawable/ic_traffic"
+                android:title="@string/nav_traffic_title" />
+            <item
+                android:id="@+id/nav_3d_building"
+                android:icon="@drawable/ic_3d_rotation"
+                android:title="@string/nav_3d_title" />
+        </menu>
+
+    </item>
+
+
+</menu>

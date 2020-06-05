@@ -1,0 +1,2 @@
+rootProject.name='TrackLog'
+include ':app'
