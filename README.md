@@ -12,6 +12,12 @@
 - 标记POI点
 - 路线规划
 
+##### 相关技术
+- Android系统常见控件
+- 腾讯地图SDK [官方文档](https://lbs.qq.com/mobile/androidMapSDK/developerGuide/androidSummary)
+- 腾讯定位SDK [官方文档](https://lbs.qq.com/mobile/androidLocationSDK/androidGeoGuide/androidGeoOverview)
+- 自定义View
+
 ##### 截图
 ![截图](https://github.com/pangzhaiwei/TrackLog/blob/master/device-2020-06-05-105053.png)
 ![截图](https://github.com/pangzhaiwei/TrackLog/blob/master/device-2020-06-05-105130.png)
