@@ -33,7 +33,7 @@
 
         <meta-data
             android:name="TencentMapSDK"
-            android:value="KWABZ-Q4TEI-WN6GU-5GUSX-QEXUV-OUFD4" />
+            android:value="your key" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
